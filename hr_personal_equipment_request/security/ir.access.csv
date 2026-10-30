@@ -1,0 +1,6 @@
+id,name,model_id,group_id/id,operation,domain
+acl_hr_personal_equipment_officer,hr_personal_equipment_officer,hr.personal.equipment,hr.group_hr_user,crud,
+acl_hr_personal_equipment_user,hr_personal_equipment_user,hr.personal.equipment,base.group_user,crud,"[('equipment_request_id.employee_id', 'in', user.employee_ids.ids)]"
+acl_hr_personal_equipment_request_officer,hr_personal_equipment_request_officer,hr.personal.equipment.request,hr.group_hr_user,cru,
+acl_hr_personal_equipment_request_user,hr_personal_equipment_request_user,hr.personal.equipment.request,base.group_user,cru,"[('employee_id', 'in', user.employee_ids.ids)]"
+personal_equipment_draft_state,Delete employee personal equipment only in draft state,hr.personal.equipment,,d,"[('state', '=', 'draft')]"
