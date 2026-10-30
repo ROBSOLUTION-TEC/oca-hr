@@ -18,7 +18,13 @@ hr
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[hr_employee_medical_examination](hr_employee_medical_examination/) | 20.0.1.0.0 |  | Adds information about employee's medical examinations
+[hr_employee_ppe](hr_employee_ppe/) | 20.0.1.0.0 |  | Personal Protective Equipment (PPE) Management
+[hr_personal_equipment_request](hr_personal_equipment_request/) | 20.0.1.0.0 |  | This addon allows to manage employee personal equipment
 
 [//]: # (end addons)
 
